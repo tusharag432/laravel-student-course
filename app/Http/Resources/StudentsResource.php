@@ -20,7 +20,7 @@ class StudentsResource extends JsonResource
                 'attributes' => [
                     'name' => $this->name,
                     'batch' => $this->batch,
-                    // 'courses' => $this->course,
+                    'courses' => $this->course,
                     'created_at' => $this->created_at,
                     'updated_at' => $this->updated_at
                 ]
